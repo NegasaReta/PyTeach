@@ -29,3 +29,8 @@ def trigger_indexing():
         return response.status_code == 200
     except:
         return False
+    
+    '''
+    This is a random commentation
+    
+    '''
