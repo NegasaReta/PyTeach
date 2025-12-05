@@ -1,55 +1,87 @@
-PyTeach – AI-Powered Python Learning Assistant
+# 🐍 PyTeach – AI-Powered Python Learning Assistant
 
-PyTeach is an interactive Retrieval-Augmented Generation (RAG) learning assistant designed to help students understand Python programming concepts using real lecture materials. The system combines FastAPI, Streamlit, ChromaDB, and LLMs (Ollama/OpenAI) to deliver accurate, context-aware explanations from your uploaded course notes.
+> *Learn Python the smart way, guided by your course materials and real AI insights.*
 
-🚀 Features
+---
 
-📘 Uses 16+ Python lecture PDFs as the knowledge source.
+```
+PyTeach is your personal RAG-powered Python mentor.
+It helps you master Python concepts,
+using your lecture notes as the source.
+```
 
-🔍 Fast and accurate retrieval with ChromaDB vector database.
+---
 
-🤖 AI-powered explanations, summaries, quizzes, and examples.
+## 🚀 Core Features
 
-💬 Clean chat-based interface built with Streamlit.
+- `📘` **16+ Python Lecture PDFs:** Your own syllabus becomes the knowledge base.
+- `🔍` **Smart & Blazing-Fast Retrieval:** Powered by ChromaDB vector search.
+- `🤖` **AI Explanations, Summaries, Quizzes & Examples:** Ask anything!
+- `💬` **Chat UI:** Beautiful, intuitive Streamlit-driven conversations.
+- `⚡` **Modern API Backend:** Modular & scalable with FastAPI.
+- `🧩` **Structured RAG Pipeline:**
+  - Chunking → Embeddings → Retrieval → LLM Answers
+- `🔄` **Easy Content Upgrades:** Add or remove PDFs anytime.
 
-⚡ Backend powered by FastAPI for modularity and scalability.
+---
 
-🧩 Structured RAG pipeline: chunking → embeddings → retrieval → LLM answer.
+## 🏗️ Tech Stack
 
-🔄 Easy to update: add/remove PDFs anytime.
+```plaintext
+Frontend      : Streamlit
+Backend       : FastAPI
+Vector Store  : ChromaDB
+Embeddings    : Sentence Transformers
+LLM Engine    : Ollama / OpenAI API
+PDF Parsing   : PyPDF
+```
 
-🏗️ Tech Stack
+---
 
-Frontend: Streamlit
+## 📦 Project Structure
 
-Backend: FastAPI
-
-Vector Store: ChromaDB
-
-Embeddings: Sentence Transformers
-
-LLM: Ollama or OpenAI API
-
-Processing: PyPDF
-
-📁 Project Structure
+```plaintext
 PyTeach/
-│── backend/        # FastAPI backend
-│── frontend/       # Streamlit UI
-│── core/           # RAG pipeline and helpers
-│── documents/      # Lecture PDFs
-│── data/chroma/    # Vector database
+├── backend/        # FastAPI backend
+├── frontend/       # Streamlit UI
+├── core/           # RAG pipeline & helpers
+├── documents/      # Lecture PDFs
+├── data/chroma/    # Vector database
 └── README.md
+```
 
-▶️ Getting Started
+---
 
-Install dependencies:
-pip install -r requirements.txt
-Start the backend:
-uvicorn backend.main:app --reload
-Launch the Streamlit app:
-streamlit run frontend/app.py
+## ▶️ Quickstart
 
-🎯 Purpose
-PyTeach is designed to make Python learning intuitive, interactive, and personalized by grounding all explanations in your actual lecture notes.
-Perfect for students, tutors, and classrooms.
+1. **Install dependencies**
+    ```bash
+    pip install -r requirements.txt
+    ```
+2. **Start the backend**
+    ```bash
+    uvicorn backend.main:app --reload
+    ```
+3. **Launch the Streamlit app**
+    ```bash
+    streamlit run frontend/app.py
+    ```
+
+---
+
+## 🎯 Why PyTeach?
+
+- *Stop searching random content online.*  
+  PyTeach trains exclusively on your lecture notes for **personalized, relevant answers**.
+- *Instant code examples and interactive quizzes.*
+- *Perfect for:* Students, Tutors, Classrooms.
+
+---
+
+### ⭐ Explore. Learn. Master Python with PyTeach!
+
+```
+Learning Python should be intuitive and grounded,
+with answers that match your course.
+PyTeach makes Python learning interactive, accurate and fun!
+```
