@@ -44,21 +44,12 @@ PyTeach/
 ▶️ Getting Started
 
 Install dependencies:
-
 pip install -r requirements.txt
-
-
 Start the backend:
-
 uvicorn backend.main:app --reload
-
-
 Launch the Streamlit app:
-
 streamlit run frontend/app.py
 
 🎯 Purpose
-
 PyTeach is designed to make Python learning intuitive, interactive, and personalized by grounding all explanations in your actual lecture notes.
-
 Perfect for students, tutors, and classrooms.
