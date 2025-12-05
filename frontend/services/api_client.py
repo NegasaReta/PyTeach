@@ -1,7 +1,7 @@
 import requests
 import os
 
-API_URL = os.getenv("BACKEND_URL", "http://localhost:9000")
+API_URL = os.getenv("BACKEND_URL", "http://localhost:8000")
 
 def get_answer(question: str):
     """
