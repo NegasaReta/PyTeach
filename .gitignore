@@ -1,0 +1,31 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.env
+.env.* 
+
+# Virtualenvs
+.venv/
+venv/
+env/
+ml-env/
+
+# Jupyter / notebooks
+.ipynb_checkpoints/
+*.ipynb
+
+# Data / models
+data/
+models/
+*.sqlite3
+
+# IDEs / OS
+.vscode/
+.idea/
+.DS_Store
+
+# Chroma / DB persistence
+chroma_db/
+persist/
