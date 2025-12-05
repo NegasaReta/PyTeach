@@ -67,6 +67,7 @@ PyTeach/
     streamlit run frontend/app.py
     ```
 
+
 ---
 
 ## 🎯 Why PyTeach?
